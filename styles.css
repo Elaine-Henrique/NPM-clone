@@ -1,0 +1,303 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "arial";
+  font-size: 10px;
+  line-height: 1.5em;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 5px;
+  height: 30px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-left{
+  float: left ;
+}
+
+.heart{
+  padding: 0;
+  margin: 0 10px 0;
+}
+
+.acronym{
+  display: inline-block;
+}
+
+.top-links {
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+h1 {
+  font-size: 4em;
+  color: #fff;
+  font-weight: 200;
+}
+  
+h2 {
+  font-size: 2.5em;
+  color: #fff;
+  width: 300px;
+  line-height: 1.5;
+}
+  
+h3 {
+  font-size: 2.2em;
+  text-align: center;
+  color:  rgb(83, 88, 98);
+}
+
+h4 {
+  font-size: 1.5em;
+  letter-spacing: 0.4px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  color: rgb(7, 18, 29);
+}
+
+.oneleft {
+  width: 50%;
+  float: left;
+  padding: 120px 0 0 80px;
+}
+
+.oneleft-2 {
+  width: 50%;
+  float: left;
+  padding: 30px 0 0 300px;
+}
+
+.header {
+  background: url(https://static.npmjs.com/images/hero-cityscape.svg) 0 0 no-repeat;
+  background-size: cover;
+  height: 350px;
+}
+
+.logo {
+  float: left;
+  width: 70px;
+  padding: 10px 15px;
+}
+
+.slot-form-container {
+  font-size: 1.5em;
+  width: 70%;
+  padding: 10px 0 0 15px;
+  float: left;
+}
+
+.slot-form-container input {
+  height: 20px;
+  outline: none;
+  padding: 3px;
+  width: 90%;
+  background: rgb(31, 82, 111);
+  box-shadow: 1px 0  ;
+}
+
+button { 
+  width: 40px;
+  background:  url('lupa.png')  center no-repeat;
+  padding: -10px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.toplog{
+  font-size: 1.2em;
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  padding: 5px 1%;
+}
+
+.bear {
+  width: 20px;
+}
+
+.oneleft {
+  width: 50%;
+  float: left;
+  padding: 70px 0 0 80px;
+}
+
+.text {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 80;
+  margin: 30px 0;
+  text-align: left;
+  line-height: 1.5;
+  width: 450px;
+}
+
+.orangebtn {
+  background-color: rgb(240, 146, 51);
+  color: #fff;
+  font-family: 'arial';
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin: 40px auto 0;
+  padding: 5px 20px;
+  width: 150px;
+}
+
+.dark-background {
+  height: 350px;
+  background-color: rgb(39, 53, 71);
+  color: #fff;
+}
+
+.colab {
+  overflow: hidden; 
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.orgs {
+  float: left;
+  width: 60%;
+  margin-left: 5%;
+}
+
+.colab-right {
+  float: left;
+  width: 30%;
+  padding-top: 30px;
+}
+
+.text-lista {
+  font-size: 1.0em;
+  color: #fff;
+  width: 300px;
+  line-height: 2.0;
+  padding: 15px 15px;
+}
+
+.orgs-link {
+  text-decoration: none;
+  width: 300px;
+  color: rgba(255,255,255,0.8);
+}
+
+.redbtn {
+  background-color: rgb(203, 56, 55);
+  color: #fff;
+  font-family: 'arial';
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin: 40px auto 0;
+  padding: 5px 20px;
+  width: 150px;
+}
+
+.oneleft-2 {
+  width: 50%;
+  float: left;
+  padding: 50px 0 0 200px;
+}
+
+.img-background {
+  background: url(https://static.npmjs.com/images/npm-is-BOXES.svg) 0 0 no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+}
+
+.teste-3 {
+  margin-left: 30%;
+}
+
+.bluebtn {
+  background-color: rgb(49, 68, 88);
+  color: #fff;
+  font-family: 'arial';
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin: 40px auto 0;
+  padding: 5px 20px;
+  width: 150px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.clear-background {
+  height: 350px;
+  background-color: #fff;
+  color: rgb(135, 145, 156);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 75px 0;
+  width: 1200px;
+}
+
+.section-text {
+  font-size: 1.1em;
+  margin: 10px auto;
+  text-align: center;
+  width: 60%;
+  color:rgb(135, 145, 156);
+}
+
+.find-link {
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
+
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 20%;
+}
+
+.img {
+  width: 100px;
+}
+
+.mar{
+  margin-left: 20%;
+}
+
+.service-box {
+  font-size: 1.3em;
+  color:rgb(135, 145, 156);
+  text-align: center;
+  margin: 30px 3% 0;
+  width: 20%;
+}
